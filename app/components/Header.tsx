@@ -20,10 +20,11 @@ export default function Header() {
 
   return (
     <header className="pt-6 pb-14 flex items-center">
-      <div>
+      <div className="flex gap-x-3 items-center">
         <Link href={"/"} className="font-semibold text-xl">
           Baradi
         </Link>
+        <p className="text-sm">어떤 시라도</p>
       </div>
       <div className="ml-auto">
         {user ? (
